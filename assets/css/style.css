@@ -1,0 +1,49 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 3px;
+}
+
+button:hover {
+  color: white;
+  background-color: darkslategrey;
+}
+
+.tabla {
+  border: 1px solid black;
+  padding: 30px 20px;
+  border-radius: 3px;
+}
+
+td {
+  /* text-decoration: underline; */
+  text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 30px 40px;
+  border-radius: 5px;
+  background-color: rgb(226, 226, 226);
+  color: rgb(0, 0, 0);
+}
